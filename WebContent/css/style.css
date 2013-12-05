@@ -1,0 +1,153 @@
+ body {
+        padding-top: 20px;
+        padding-bottom: 40px;
+      }
+
+      /* Custom container */
+      .container-narrow {
+        margin: 0 auto;
+        max-width: 700px;
+      }
+      .container-narrow > hr {
+        margin: 30px 0;
+      }
+
+      /* Main marketing message and sign up button */
+      .jumbotron {
+        margin: 60px 0;
+        text-align: center;
+      }
+      .jumbotron h1 {
+        font-size: 72px;
+        line-height: 1;
+      }
+      .jumbotron .btn {
+        font-size: 21px;
+        padding: 14px 24px;
+      }
+
+      /* Supporting marketing content */
+      .marketing {
+        margin: 60px 0;
+      }
+      .marketing p + h4 {
+        margin-top: 28px;
+      }
+      
+      .headertext{
+      font-family: 'Damion', cursive;
+      font-weight:normal;
+      font-size:45.5px;
+      }
+      #home{
+      display:block;
+      }
+      #add,#get,#contact{
+      display:none;
+      }
+      .warning{
+      font-size:8px;
+      }
+      #add{
+      width:50%;
+      margin:0 auto;
+      }
+      .center{
+      display:block;
+      margin:0 auto;
+      text-align:center;
+      float:none;
+      }
+      .adddesc{
+      height:100px;
+      }
+      #add input[type='text'],#add textarea,#add input[type='url']{
+      width:100%;
+      }
+      #adminAdd input[type='text'],#adminAdd textarea,#adminAdd input[type='url']{
+      width:100%;
+      }
+      .thanks,.opps{
+      display:none;
+      }
+      #get{
+      display:none;
+      min-height:400px;
+      }
+      .another{
+  	  display:none;
+      }
+      .loader{
+      display:none;
+      height:400px;
+      width:100%;
+      background-position:center center;
+      background-repeat:no-repeat;
+      margin:0 auto;
+      background-image:url('../img/ajax-loader.gif');
+      }
+      .item{
+      display:none;
+      }
+      .circle{
+      -webkit-box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.3);
+	  box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.3);
+	  position: relative;
+	  margin: 10px auto;
+	  width: 225px;
+	  height: 225px;
+	  border-radius: 50%;
+	  background: rgb(255,255,255);
+	  border: 15px solid rgb(211, 211, 211);
+	  overflow:hidden;
+      }
+      .circle img{
+      height:100%;
+      width:100%;
+      max-width:225px;
+      max-height:225px;
+      }
+      .login{
+      width:100%;
+      text-align:center;
+      }
+      .goBack{
+      float:right;
+      }
+      .error{
+      color:red;
+      }
+      .navbar .nav > li > span{
+      float: none;
+	  padding: 10px 15px 10px;
+	  color: #777777;
+	  text-decoration: none;
+	  text-shadow: 0 1px 0 #ffffff;
+      }
+      .nav > li > span {
+	  display: block;
+	  }
+	  .well{
+	  padding:0px;
+	  }
+	  table {
+      table-layout: fixed;
+      word-wrap: break-word;
+	  }
+	  #adminAdd,#adminView,#adminApprove,#adminApprovedItems,#adminAllItems{
+	  display:none;
+	  }
+	  .results{
+	  display:none;
+	  }
+     .search-query:focus + button {
+        z-index: 3;   
+     }
+     input.search-query{
+     border-radius:0px;
+     -webkit-border-radius:0px;
+     -moz-border-radius:0px;
+     }
+     .searchAgain{
+     display:none;
+     }

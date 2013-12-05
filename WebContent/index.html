@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Salerizer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This demo web application is an example of a Java powered REST Web Service built on top of Apache Tomcat and MySQL.">
+    <meta name="author" content="Eric Barber">
+    
+	<link href='http://fonts.googleapis.com/css?family=Damion' rel='stylesheet' type='text/css'>
+    <link href="/Sale/css/bootstrap.css" rel="stylesheet">
+    <link href="/Sale/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="/Sale/css/style.css" rel="stylesheet">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="/js/html5shiv.js"></script>
+    <![endif]-->
+    
+    <script src="js/jquery-1.10.2.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+	<script src="js/main.js"></script>
+	
+    <script>
+        $(document).ready(function() {
+        	$('.addtitle').tooltip();
+        	$('.addurl').tooltip();
+        	$('.addthumb').tooltip();
+        	$('.adddesc').tooltip();
+        });
+    </script>
+    
+  </head>
+
+  <body>
+
+    <div class="container-narrow">
+
+      <div class="masthead">
+        <ul class="nav nav-pills pull-right">
+          <li class="active"><a href="#" class="home">Home</a></li>
+          <li><a href="#" class="get">Get a sale!</a></li>
+          <li><a href="#" class="add">Add a sale!</a></li>
+          <li><a href="#" class="contact">Contact</a></li>
+        </ul>
+        <h3 class="muted headertext">Salerizer</h3>
+      </div>
+
+      <hr>
+
+	  <div id="home" class="page">
+      	<div class="jumbotron">
+      	  <p class="lead">Salerizer is simple - you ask for a random deal and you get a random deal. Don't like what was given to you? Spin the proverberial wheel of 'Try Again' and load up a new sale! Your wallet will most likely thank you. Most likely.</p>
+      	  <a class="btn btn-large btn-success" href="#" id="started">Let's get started!</a>
+      	</div>
+      </div>
+      
+      <div id="add" class="page">
+      	<div class="addsale">
+    	<h2>Add a new sale</h2>
+    		<form method="POST" class="additem">
+    			<label>Title</label>
+    			<input type="text" name="title" class="span3 addtitle" data-toggle="tooltip" placeholder="Dashing Oven Mitts" title="Please enter a title!">
+    			<label>URL</label>
+    			<input type="url" name="url" class="span3 addurl" data-toggle="tooltip" placeholder="www.NotYourMothersMitts.com/AsSeenOnTv" title="Please enter a valid URL.">
+    			<label>Thumbnail URL</label>
+    			<input type="url" name="thumb" class="span3 addthumb" data-toggle="tooltip" placeholder="www.NotYourMothersMitts.com/i/MittsThumb.png" title="Please enter a valid URL to an image.">
+    			<label>Description</label>
+    			<textarea name="desc" class="span3 adddesc" data-toggle="tooltip" placeholder="This Oven Mitts are just plain stunning. And diamond studded. Did we mention they also keep your hands cool while handling hot items? Wowza!" title="Please enter some kind of description!"></textarea>
+    			<div class="clearfix"></div>
+    			<input type="submit" value="Add Sale" class="btn btn-primary center	">
+
+    			<div class="clearfix"></div>
+   		 </form>
+   		 </div>
+   		 <div class="thanks">
+   		 	<p>Thanks for submitting your sale!.</p>
+   		 	<a href="#" class="addnew">Would you like to add another?</a>
+   		 </div>
+   		 <div class="opps">
+   		 	<p>There was a problem submitting your sale. Please try again later.</p>
+   		 	<a href="#" class="addnew">Click here to retry.</a>
+   		 </div>
+      </div>
+      
+      <div id="get" class="page">
+    
+        <div class="loader"></div>
+        <div class="item"></div>
+      	<div class="another">
+      	<a href="#" class="getItem">Get another item.</a>
+      	</div>
+      </div>
+      
+      <div id="contact" class="page">
+      <p>For any inquiries or comments please email me at <a href="mailto:ericbarbernj@gmail.com">ericbarbernj@gmail.com</a></p>
+      </div>
+
+	  <hr>
+	  <div class="footer">
+	  Copyright 2013 Eric Barber
+	  </div>
+
+    </div>
+
+  </body>
+</html>

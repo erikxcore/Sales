@@ -1,0 +1,18 @@
+Nov 04, 2013 9:05:27 AM me.ericbarber.logger.MyLogger setupLogger
+SEVERE: Problem connecting with database connection in generateAllItems.
+Nov 04, 2013 9:16:18 AM me.ericbarber.logger.MyLogger setupLogger
+SEVERE: Problem connecting with database connection in generateAllItems.
+Nov 04, 2013 9:21:43 AM me.ericbarber.logger.MyLogger setupLogger
+SEVERE: Problem connecting with database connection in generateAllItems.
+Nov 04, 2013 9:22:23 AM me.ericbarber.logger.MyLogger setupLogger
+SEVERE: Problem connecting with database connection in generateAllItems.
+Nov 04, 2013 9:25:23 AM me.ericbarber.logger.MyLogger setupLogger
+SEVERE: Problem connecting with database connection in generateAllItems.
+Nov 04, 2013 9:25:52 AM me.ericbarber.logger.MyLogger setupLogger
+SEVERE: Problem connecting with database connection in generateAllItems.
+Nov 04, 2013 9:31:37 AM me.ericbarber.logger.MyLogger setupLogger
+SEVERE: Problem connecting with database connection in generateAllItems.
+Nov 04, 2013 9:33:10 AM me.ericbarber.logger.MyLogger setupLogger
+SEVERE: Problem connecting with database connection in generateAllItems.
+Nov 06, 2013 4:46:52 PM me.ericbarber.logger.MyLogger setupLogger
+SEVERE: Problem connecting with database connection in changeItemStatus.
